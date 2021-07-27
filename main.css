@@ -1,0 +1,28 @@
+html {
+    background-color: #EDE8D6;
+}
+/*homepage*/
+.header{
+    color:#5B515B;
+    text-align: center;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.secondary_header{
+    color:#5B515B;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon{
+   width: 10%;
+}
+
+.header_box{
+    display: inline-block;
+}
+
