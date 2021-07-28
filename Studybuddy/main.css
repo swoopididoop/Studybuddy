@@ -7,8 +7,13 @@ html {
     float: left;
     height: 100%;
     position: fixed;
+    margin: 0;
+    padding: 0;
 }
-
+.quiz,.tools_and_techniques{
+    margin: 0;
+    padding: 0;
+}
 /*homepage*/
 .header{
     color:#5B515B;
