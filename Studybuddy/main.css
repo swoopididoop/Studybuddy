@@ -1,0 +1,40 @@
+html {
+    background-color: #EDE8D6;
+}
+
+.toolbar{
+    background-color: #5B515B;
+    float: left;
+    height: 100%;
+    position: fixed;
+}
+
+/*homepage*/
+.header{
+    color:#5B515B;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    font-size: 40px ;
+}
+
+.secondary_header{
+    color:#5B515B;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon{
+    width: 70px;
+    vertical-align: middle;
+}
+
+.header_box{
+    text-align: center;    
+}
+
+
+
