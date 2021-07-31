@@ -11,15 +11,15 @@ html {
     margin-top: -10px;
     margin-left: -10px;
     padding: 0;
-    width: 10%;
     position: fixed;
+    max-width: 15%;
 }
 .quiz,.tools_and_techniques{
     margin-top: 80%;
     padding: 0;
-    width: 100%;
+    max-width: 100%;
+    max-height:20%;
 }
-
 .secondary_header{
     color:#5B515B;
     margin-left: 100px;
