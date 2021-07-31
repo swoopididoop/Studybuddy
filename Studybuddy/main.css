@@ -2,6 +2,7 @@ html {
     background-color: #EDE8D6;
     padding:0px;
     margin: 0px;
+    font-size: 20px;
 }
 
 .toolbar{
@@ -18,6 +19,17 @@ html {
     padding: 0;
     width: 100%;
 }
+
+.secondary_header{
+    color:#5B515B;
+    margin-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    color:#5B515B;
+    font-family: 'Open Sans', sans-serif;
+}
 /*homepage*/
 .header{
     color:#5B515B;
@@ -30,11 +42,6 @@ html {
     font-size: 40px ;
 }
 
-.secondary_header{
-    color:#5B515B;
-    margin-left: 100px;
-    font-family: 'Open Sans', sans-serif;
-}
 
 .icon{
     width: 70px;
@@ -51,3 +58,9 @@ html {
     width: 40%;
 }
 
+.homepage_textbox{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
