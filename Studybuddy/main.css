@@ -38,24 +38,26 @@ p{
     font-style: normal;
     margin-left: auto;
     margin-right: auto;
-    display: inline;
+    display: inline-block;
     font-size: 40px ;
+    text-align: center;
 }
-
-
 .icon{
     width: 70px;
     vertical-align: middle;
     display: inline;
     position: relative;
 }
-
 .header_box{
-    text-align: center; 
+    text-align: center;
+    margin-left: 13.5%;
 }
 
 .homepage_art{
     width: 40%;
+    vertical-align: middle;
+    position:relative;
+    left: 33.5%;
 }
 
 .homepage_textbox{
@@ -63,4 +65,5 @@ p{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 8%;
 }
