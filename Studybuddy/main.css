@@ -30,7 +30,7 @@ p{
     color:#5B515B;
     font-family: 'Open Sans', sans-serif;
 }
-/*homepage*/
+
 .header{
     color:#5B515B;
     font-family: century-gothic, sans-serif;
@@ -42,6 +42,9 @@ p{
     font-size: 40px ;
     text-align: center;
 }
+
+/*homepage*/
+
 .icon{
     width: 70px;
     vertical-align: middle;
@@ -66,4 +69,16 @@ p{
     margin-left: auto;
     margin-right: auto;
     padding-left: 8%;
+}
+
+/*Quiz page*/
+
+.Quiz_container{
+    background-color:#5B515B;
+    margin-left: 15%;
+    width: fit-content;
+}
+
+.Quiz_text{
+    color:#EDE8D6;
 }
