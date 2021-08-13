@@ -1,15 +1,34 @@
 html {
     background-color: #EDE8D6;
+    padding:0px;
+    margin: 0px;
+    font-size: 20px;
 }
-/*homepage*/
-.header{
-    color:#5B515B;
-    text-align: center;
-    font-family: century-gothic, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 200px;
-    margin-right: 200px;
+
+.toolbar{
+    background-color: #5B515B;
+    height: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding: 0;
+    position: fixed;
+    max-width: 15%;
+}
+.quiz,.tools_and_techniques{
+    margin-top: 80%;
+    padding: 0;
+    max-width: 100%;
+    max-height:20%;
+}
+
+.home{
+margin-left: 3%;
+max-width:100%;
+max-height: 20%;
+margin-top: 80%;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 .secondary_header{
@@ -18,11 +37,129 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.icon{
-   width: 10%;
+p{
+    color:#5B515B;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.header_box{
+.header{
+    color:#5B515B;
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-block;
+    font-size: 40px ;
+    text-align: center;
+    margin-left: 10px;
 }
 
+/*homepage*/
+
+.icon{
+    width: 70px;
+    vertical-align: middle;
+    display: inline;
+    position: relative;
+}
+.header_box{
+    text-align: center;
+    margin-left: 13.5%;
+}
+
+.homepage_art{
+    width: 40%;
+    vertical-align: middle;
+    position:relative;
+    left: 33.5%;
+}
+
+.homepage_textbox{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 8%;
+}
+
+/*Quiz page*/
+
+.Quiz_container{
+    background-color:#5B515B;
+    margin-left: 15%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: 10%;
+    height: fit-content;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.Quiz_text{
+    color:#EDE8D6;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.answers{
+    background-color:#71BBC2 ;
+    box-shadow:#57878B ;
+    font-size:16px;
+    padding: 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 6%;
+    display: inline-block;
+    color:#5B515B;
+    margin-top: 20px;
+    width: 40%;
+}
+
+.technique_link{
+    font-size: 18px;
+    width: 30%;
+    float: left;
+    margin-left: 25%;
+    margin-top: 70px;
+}
+
+.tools_link{
+    font-size: 18px;
+    width: 30%;
+    float: right;
+    margin-top: 70px;
+    margin-right: 10%;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+/*Results page*/
+
+.results_text{
+   text-align: center; 
+   color: #EDE8D6;
+}
+
+.technique_image{
+    width: 40%;
+    margin-left: 6%;
+    float: left;
+    max-width: 250px;
+}
+
+.technique_text{
+    color: #EDE8D6;
+    display:inline-block;
+    width: 40%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.link_container{
+    display: inline-block;
+    width: 100%;
+}
