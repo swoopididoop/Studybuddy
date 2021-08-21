@@ -165,7 +165,7 @@ p{
 }
 
 /* Tools and techniques page*/
-.tools_header{
+.tools_and_techniques_header{
     font-size: 30px;
     font-family: century-gothic, sans-serif;
     color: #5B515B;
@@ -174,7 +174,7 @@ p{
     background-color: #71BBC2;
 }
 
-.tools_and_techniques_header{ 
+.tools_and_techniques_header_container{ 
     height: 100%;
     margin-right: -8px;
 }
@@ -184,20 +184,20 @@ p{
     margin-left: 17%;
 }
 
-.NZQA_logo{
+.Tools_and_techniques_logo{
     width: 200px;
     float: left;
     margin-left: 10%;
     margin-top: 10px;
 }
 
-.NZQA_text{
+.Tools_and_techniques_text{
     width: 65%;
     display: inline-block;
     margin-left: 10px;
 }
 
-.NZQA{
+.Tools_and_techniques_container{
     display: inline-block;
     width: 80%;
     padding-left: 10%;
