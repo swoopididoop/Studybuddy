@@ -16,7 +16,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!--Paragraph font-->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <script src="quiz_code.js"></script>
 </head>
 <body>
     <!--Toolbar-->
@@ -30,16 +29,17 @@
     <h1 class="header">Find out what study technique is right for you by taking this quiz</h1>
     <p>If you are using Internet Explorer, please enable scripts to complete the quiz</p>
     </div>
-    <!--Quiz-->
+    <!--Results display-->
     <div class="Quiz_container">
-   <p class="Quiz_text" id="qnumber"> <strong>Question 1</strong></p>
-    <p class="Quiz_text" id="question"> What is the purpose of your study session?</p>
-    <!--Anwers-->
-    <button class="answers" onclick="userPressed1()" id="qanswer_1">Revision and practice</button>
-    <button class="answers" id="qanswer_2" onclick="userPressed2()">Working on a project</button>
-    <br>
-</div>
+    <p class="results_text"><strong>Quiz completed</strong></p>
+    <p class="results_text"> Your results:</p>
+    <p class="Quiz_text" ><strong>Spaced repetition</strong></p>
+    <img src="img/Spaced_repetition.png" class="technique_image" alt="Spaced repetition">
+    <p class="technique_text"> It is a method used for retaining information, where flashcards are organized into a box in 5 separate sections. To use this technique, you will need to answer the questions on the flashcards and when you get the question wrong. You will move that card to a more often visited section and when the question is right, it is moved down to a less-visited section. Where the end goal is to put all cards in the end section where the question is answered correctly each time indicating the user has successfully retained the information.</p>
+    </div>
     <!--links-->
+    <div class="link_container">
     <p class="technique_link">Click <a class="link">here</a> to learn about other study techniques that can help develop good study habits</p>
     <p class="tools_link">Click <a class="link">here</a> to learn about tools that can help develop good study habits</p>
+    </div>
     <br>

@@ -10,7 +10,6 @@ html {
     height: 100%;
     margin-top: -10px;
     margin-left: -10px;
-    padding: 0;
     position: fixed;
     max-width: 15%;
 }
@@ -52,6 +51,8 @@ p{
     display: inline-block;
     font-size: 40px ;
     text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*homepage*/
@@ -100,11 +101,11 @@ p{
     color:#EDE8D6;
     margin-left: 10%;
     margin-top: 20px;
+    font-size: 25px;
 }
 
 .answers{
     background-color:#71BBC2 ;
-    box-shadow:#57878B ;
     font-size:16px;
     padding: 8px;
     padding-left: 10%;
@@ -114,37 +115,6 @@ p{
     color:#5B515B;
     margin-top: 20px;
     width: 40%;
-}
-
-.previous_question_button{
-    background-color:#EDE8D6;
-    font-family:'Open Sans', sans-serif;
-    color:#5B515B;
-    font-size: 15px;
-    margin-top: 25px;
-    padding:10px;
-    border-radius: 5px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.next_question_button{
-    background-color:#EDE8D6;
-    font-family:'Open Sans', sans-serif;
-    color:#5B515B;
-    font-size: 15px;
-    margin-top: 25px;
-    border-radius: 5px;
-    padding:10px;
-    padding-left: 25px;
-    padding-right: 25px; 
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.question_switching_buttons{
-    width:100%;
-    text-align: center;
 }
 
 .technique_link{
@@ -165,4 +135,72 @@ p{
 
 .link{
     text-decoration: underline;
+}
+
+/*Results page*/
+
+.results_text{
+   text-align: center; 
+   color: #EDE8D6;
+}
+
+.technique_image{
+    width: 40%;
+    margin-left: 6%;
+    float: left;
+    max-width: 250px;
+}
+
+.technique_text{
+    color: #EDE8D6;
+    display:inline-block;
+    width: 40%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.link_container{
+    display: inline-block;
+    width: 100%;
+}
+
+/* Tools and techniques page*/
+.tools_header{
+    font-size: 30px;
+    font-family: century-gothic, sans-serif;
+    color: #5B515B;
+    font-weight: 400;
+    text-align: center;
+    background-color: #71BBC2;
+}
+
+.tools_and_techniques_header{ 
+    height: 100%;
+    margin-right: -8px;
+}
+
+.tool_and_technique_name{
+    font-weight: 100;
+    margin-left: 17%;
+}
+
+.NZQA_logo{
+    width: 200px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+.NZQA_text{
+    width: 65%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.NZQA{
+    display: inline-block;
+    width: 80%;
+    padding-left: 10%;
+    text-align: center;
+    vertical-align: middle;
 }
