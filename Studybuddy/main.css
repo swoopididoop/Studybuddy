@@ -39,12 +39,13 @@ margin-right: auto;
 p{
     color:#5B515B;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
 
 .header{
     color:#5B515B;
     font-family: century-gothic, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +59,7 @@ p{
 a{
     text-decoration: underline;
     color:#5B515B ;
+    font-weight: 800;
 }
 /*homepage*/
 
@@ -107,6 +109,7 @@ a{
     margin-left: 10%;
     margin-top: 20px;
     font-size: 25px;
+    font-weight: 800;
 }
 
 .answers{
@@ -120,6 +123,7 @@ a{
     color:#5B515B;
     margin-top: 20px;
     width: 40%;
+    font-weight: 800;
 }
 
 .technique_link{
@@ -128,6 +132,7 @@ a{
     float: left;
     margin-left: 25%;
     margin-top: 70px;
+    font-weight: 800;
 }
 
 .tools_link{
@@ -136,10 +141,12 @@ a{
     float: right;
     margin-top: 70px;
     margin-right: 10%;
+    font-weight: 800;
 }
 
 .link{
     text-decoration: underline;
+    font-weight: 800;
 }
 
 /*Results page*/
@@ -147,6 +154,7 @@ a{
 .results_text{
    text-align: center; 
    color: #EDE8D6;
+   font-weight: 800;
 }
 
 .technique_image{
@@ -162,6 +170,7 @@ a{
     width: 40%;
     margin-left: 50px;
     margin-bottom: 50px;
+    font-weight: 800;
 }
 
 .link_container{
@@ -174,7 +183,7 @@ a{
     font-size: 30px;
     font-family: century-gothic, sans-serif;
     color: #5B515B;
-    font-weight: 400;
+    font-weight: 800;
     text-align: center;
     background-color: #71BBC2;
 }
@@ -185,7 +194,7 @@ a{
 }
 
 .tool_and_technique_name{
-    font-weight: 100;
+    font-weight: 200;
     margin-left: 17%;
 }
 
@@ -202,6 +211,7 @@ a{
     width: 65%;
     display: inline-block;
     margin-left: 10px;
+    font-weight: 800;
 }
 
 .Tools_and_techniques_container{
